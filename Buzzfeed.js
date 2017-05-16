@@ -1,1 +1,16 @@
-I'll type stuff in here later
+function(addQuestion);
+{
+  
+}
+function(addPhoto);
+{
+  
+}
+function(makeResult);
+{
+  
+}
+function(makeAnother);
+{
+  
+}
