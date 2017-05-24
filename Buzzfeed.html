@@ -29,11 +29,11 @@
 			</div>
 			<button>Add Question </button>
 			<div>
-				<label for="A1"> Answers:</label>
+				<label for="A1"> Answer:</label>
 				<input type="text" id="ans" name="Answer">
-				<label for="R1"> Result:</label>
+				<label for="R1"> Corresponding Result:</label>
 				<input type="text" id="res" name="Result">
-				<button> Add Question </button>
+				<button id="newq"> Add Question </button>
 				
 		<textarea rows="4" cols="50"> </textarea>
 		//<button> UPLOAD </button>
@@ -41,9 +41,16 @@
     			<input type="file" name="fileToUpload" id="fileToUpload">
    			<input type="submit" value="Upload Image" name="submit">
 		</form>
-		<button> Add Question </button> 
+		<button> Add Question </button> //I'm pretty sure this is redundant
 		<button> NEXT </button>
 		</div>
+		//Now to where the questions are answered. I need to make these variable :(
+		<form >
+			<input type="radio" name="choice" value=""> Scripting
+			<input type="radio" name="choice" value=""> Programmina
+			<input type="radio" name="choice" value="Application"> Application
+			<input type="radio" name="choice" value="None of These"> None of These
+		</form>
 	</body>
 </htmL>
 	
