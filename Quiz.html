@@ -6,39 +6,32 @@
   </head>
   <body>
     <h1>Quiz Title!!!!</h1>
-    <img src="image URL here" alt="Image Description" width = 200 height = 200>
-    <h2>1. First Question</h2>
-    <form >
-			<input type="radio" name="choice" value="result1"> Answer1
-			<input type="radio" name="choice" value="result2"> Answer2
-			<input type="radio" name="choice" value="result3"> Answer3
-			<input type="radio" name="choice" value="result4"> Answer4
-		</form>
-    <img src="image URL here" alt="Image Description" width = 200 height = 200>
-    <h2>2. First Question</h2>
-    <form >
-			<input type="radio" name="choice" value="result1"> Answer1
-			<input type="radio" name="choice" value="result2"> Answer2
-			<input type="radio" name="choice" value="result3"> Answer3
-			<input type="radio" name="choice" value="result4"> Answer4
-		</form>
-    <img src="image URL here" alt="Image Description" width = 200 height = 200>
-    <h2>3. First Question</h2>
-    <form >
-			<input type="radio" name="choice" value="result1"> Answer1
-			<input type="radio" name="choice" value="result2"> Answer2
-			<input type="radio" name="choice" value="result3"> Answer3
-			<input type="radio" name="choice" value="result4"> Answer4
-		</form>
-    <img src="image URL here" alt="Image Description" width = 200 height = 200>
-    <h2>4. First Question</h2>
-    <form >
-			<input type="radio" name="choice" value="result1"> Answer1
-			<input type="radio" name="choice" value="result2"> Answer2
-			<input type="radio" name="choice" value="result3"> Answer3
-			<input type="radio" name="choice" value="result4"> Answer4
-		</form>
-  </body>
+<div id="display">
+<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+ <img src="image URL here" alt="Image Description" width = 200 height = 200>
+<li><div class="question">¿Quién detestan la nueva casa?</div></li>
+<input id="answer" type="radio" name="group1" value="wrong"> Josh<br>
+<input id="answer" type="radio" name="group1" value="wrong"> Amanda<br>
+<input id="answer" type="radio" name="group1" value="correct"> Josh y Amanda<hr>
+	   
+ <img src="image URL here" alt="Image Description" width = 200 height = 200>
+<li><div class="question">¿Quién es señor Dawes?</div></li>
+<input id="answer" type="radio" name="group2" value="wrong">Un familia amigo<br>
+<input id="answer" type="radio" name="group2" value="wrong">Un gato<br>
+<input id="answer" type="radio" name="group2" value="correct">Un amable joven de la agencia de bienes raíces<hr>
+	   
+ <img src="image URL here" alt="Image Description" width = 200 height = 200>
+<li><div class="question">¿Quién qué sus buscan?</div></li>
+<input id="answer" type="radio" name="group3" value="wrong">Josh<br>
+<input id="answer" type="radio" name="group3" value="wrong"> Petey<br>
+<input id="answer" type="radio" name="group3" value="correct" >Josh y Petey<hr>
+
+<button class="submit" onclick="return handleClick();" type="submit">Submit</button>
+</form>
+</div>
+	  <button onclick ="Redirect"; type="redirect">Click Here to Learn More!</button>
+<img src="http://www2.ncssm.edu/~cs/images/sam.jpg" alt = "Web Dev Ad" width = 100 height = 300>	  
+</body>
 </html>
     
     
