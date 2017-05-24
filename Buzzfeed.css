@@ -2,3 +2,11 @@ h1, h2, .display
 {
     text-align:center;
 }
+img
+{
+    margin: 25px, 50px, 25px, 50px;
+}
+body
+{
+    background-color: #EEEEEE
+}
