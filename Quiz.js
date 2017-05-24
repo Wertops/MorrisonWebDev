@@ -8,7 +8,7 @@ var Resultdict = {
   "result3": "some value"
   "result4": "idk"
 };
-
+var tempHigh = 0;
 //change amountresultclicked to the above result variable that you want
 function handleClick(resultno, amountresultclicked){                  
   for(var i = 1; i <= 45; i++) {
@@ -19,17 +19,8 @@ function handleClick(resultno, amountresultclicked){
         amountresultclicked++;
       }
     }
-  }                   
-} 
-function Redirect() {
-  window.location="http://www2.ncssm.edu/~morrison/currentClasses/";
-}
-
-//resultsize is the number of results
-var tempHigh = 0;
-function makeResult(resultsize)
-{
-  for(var i = 1; i <= resultsize; i++){
+  }   
+   for(var i = 1; i <= resultsize; i++){
     if (tempHigh < ["result" + i]){
       tempHigh = ["result" + i]
     }
@@ -37,7 +28,13 @@ function makeResult(resultsize)
   //tomorrow morning iterate through some text
   window.alert("Your result is" Resultdict[tempHigh])
 }
-    
+} 
+function Redirect() {
+  window.location="http://www2.ncssm.edu/~morrison/currentClasses/";
+}
+
+//resultsize is the number of results
+
    
 
 
